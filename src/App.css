@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.game-box{
+  height: 8rem;
+  width: 8rem;
+  color: black;
+  background-color: chocolate;
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: min-content;
+  background-color:thistle;
+}
+
+.full-game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: pink; */
+  min-height: 100vh;
+  justify-content: center;
+  gap: 1rem;
+}
